@@ -2,6 +2,11 @@
     color: green;
 }
 
+ol,
+ul {
+    background-color: yellow;
+}
+
 header,
 footer {
     border: 3px dashed blue;
