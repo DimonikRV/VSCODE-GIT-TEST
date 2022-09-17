@@ -27,3 +27,8 @@ a[href*="www"] {
 a[title*="popular"] {
     font-size: 24px;
 }
+
+li[title="item"] {
+    display: inline;
+    border-top: 2px solid black;
+}
