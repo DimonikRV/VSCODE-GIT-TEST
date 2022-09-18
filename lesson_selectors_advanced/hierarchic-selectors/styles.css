@@ -16,9 +16,8 @@
     background-color: green;
 }
 
-#special1+h4>code {
+#special1~li code {
     border: 2px solid blue;
-    font-size: 50px;
 }
 
 #special2~li {
