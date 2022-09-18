@@ -1,0 +1,21 @@
+li {
+    margin-bottom: 16px;
+}
+
+ul:first-child>span {
+    background-color: red;
+    color: white;
+}
+
+ul:last-child>span {
+    background-color: black;
+    color: white;
+}
+
+ul:nth-child(even)>span {
+    margin-left: 16px;
+}
+
+.paragraphs:nth-child(odd) {
+    background-color: grey;
+}
