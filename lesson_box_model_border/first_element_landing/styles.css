@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+._paddings {
+    padding: 50px;
+}
+
+.main {
+    background-color: blue;
+}
+
+.intro {
+    background-color: yellow;
+}
+
+.intro_two {
+    background-color: green;
+}
+
+.centr {
+    background-color: pink;
+}
