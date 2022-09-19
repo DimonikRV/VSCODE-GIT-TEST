@@ -38,15 +38,15 @@ input[type="text"] {
     background-color: gray;
 }
 
-body:nth-child(5)>p {
+div:nth-child(5)>p {
     background-color: yellow;
 }
 
-body:nth-child(5) div:nth-child(3) {
+div:nth-child(5) p:nth-child(2) {
     border: 5px solid white;
 }
 
-body:nth-child(5) div:nth-child(3)>em {
+div:nth-child(5) p:nth-child(2)>em {
     color: white;
     font-size: 20px;
 }
