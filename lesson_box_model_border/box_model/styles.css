@@ -11,10 +11,10 @@ body {
     margin: 16px;
 }
 
-div.box1 {
+.box1 {
     background-color: aquamarine;
 }
 
-div.box2 {
+.box2 {
     background-color: azure;
 }
