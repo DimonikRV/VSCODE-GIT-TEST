@@ -16,10 +16,11 @@
  .nav-list {
      margin: 0;
      height: 40px;
+     list-style: none;
  }
  
  .nav-item {
-     display: inline-block;
+     float: left;
      margin-left: 16px;
      line-height: 2.5;
      color: white;
