@@ -12,11 +12,8 @@
      z-index: 50;
  }
  
- .navigation {}
- 
  .nav-list {
      margin: 0;
-     padding: 0;
      height: 40px;
  }
  
