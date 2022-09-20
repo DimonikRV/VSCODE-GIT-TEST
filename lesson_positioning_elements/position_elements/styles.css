@@ -18,6 +18,10 @@
      bottom: 50%;
  }
  
+ .nav_list {
+     height: 40px;
+ }
+ 
  .nav-list .nav-item {
      display: inline;
      line-height: 3;
