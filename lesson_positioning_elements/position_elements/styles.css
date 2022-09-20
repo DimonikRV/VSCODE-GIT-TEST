@@ -13,19 +13,22 @@
  }
  
  .navigation {
-     height: 40px;
      position: absolute;
-     bottom: 50%;
+     top: 0;
+     left: 0;
+     width: 40%;
  }
  
- .nav_list {
+ .nav-list {
+     margin: 0;
+     padding: 0;
      height: 40px;
  }
  
- .nav-list .nav-item {
-     display: inline;
-     line-height: 3;
+ .nav-item {
+     display: inline-block;
      margin-left: 16px;
+     line-height: 2.5;
      color: white;
  }
  
@@ -38,27 +41,28 @@
      width: 200px;
      height: 200px;
      background-color: aquamarine;
-     position: relative;
+     position: absolute;
      top: 50%;
      left: 50%;
      z-index: 4;
+     transform: translate(-50%, -50%);
  }
  
  .ear {
-     height: 40px;
+     height: 60px;
      width: 40px;
      background-color: brown;
  }
  
  .ear_right {
      position: relative;
-     top: -40px;
+     top: -60px;
      left: 200px;
  }
  
  .ear_left {
      position: relative;
-     top: -80px;
+     top: -120px;
      right: 40px;
  }
  
