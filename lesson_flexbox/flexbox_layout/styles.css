@@ -1,3 +1,7 @@
+* {
+    padding: 0;
+}
+
 body {
     height: 100%;
 }
@@ -23,7 +27,7 @@ body {
 }
 
 .link_item {
-    margin-right: 16px;
+    margin-left: 16px;
     align-items: center;
 }
 
