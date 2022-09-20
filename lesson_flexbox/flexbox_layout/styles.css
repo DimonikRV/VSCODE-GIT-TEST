@@ -23,7 +23,7 @@ body {
 }
 
 .link_item {
-    margin-left: 16px;
+    margin-right: 16px;
     align-items: center;
 }
 
@@ -52,6 +52,10 @@ body {
 .news_title {
     margin: 16px 0;
     align-self: center;
+}
+
+.news_list {
+    list-style: none;
 }
 
 .news_list li {
