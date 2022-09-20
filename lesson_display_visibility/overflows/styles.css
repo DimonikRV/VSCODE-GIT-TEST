@@ -2,13 +2,16 @@
     box-sizing: border-box;
 }
 
+.articles {
+    display: flex;
+}
+
 .articles>div {
-    display: inline-flex;
+    display: flex;
     height: 100px;
     width: 150px;
     background-color: beige;
     margin: 16px;
-    align-items: start;
 }
 
 .cropped {
