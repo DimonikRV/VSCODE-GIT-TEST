@@ -12,12 +12,7 @@
      z-index: 50;
  }
  
- .navigation {
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
- }
+ .navigation {}
  
  .nav-list {
      margin: 0;
