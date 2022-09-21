@@ -10,11 +10,11 @@
     color: white;
     position: relative;
     cursor: pointer;
-    padding: 16px;
 }
 
 .menu_button {
     opacity: 0.8;
+    padding: 16px;
 }
 
 .menu_button:hover .menu_button {
