@@ -34,15 +34,15 @@
     background-color: lightcyan;
 }
 
-.menu-list:hover .menu-item {
+.menu-item:hover {
     background-color: ghostwhite;
 }
 
-.dropdown:hover .menu-list {
+.dropdown .menu-list:hover {
     display: block;
 }
 
-.dropdown:hover .menu-button {
+.menu-button:hover {
     opacity: 1;
     cursor: pointer;
 }
