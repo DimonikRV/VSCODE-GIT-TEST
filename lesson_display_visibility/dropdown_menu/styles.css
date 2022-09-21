@@ -9,7 +9,6 @@
     background-color: darkgreen;
     color: white;
     position: relative;
-    cursor: pointer;
 }
 
 .menu-button {
@@ -35,7 +34,7 @@
     background-color: lightcyan;
 }
 
-.menu-item:hover .menu-item {
+.menu-list:hover .menu-item {
     background-color: ghostwhite;
 }
 
@@ -43,7 +42,7 @@
     display: block;
 }
 
-.menu-button:hover .menu_button {
+.dropdown:hover .menu-button {
     opacity: 1;
     cursor: pointer;
 }
