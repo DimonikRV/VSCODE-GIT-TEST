@@ -15,6 +15,7 @@ h1 {
     white-space: nowrap;
     text-overflow: ellipsis;
     width: 50vw;
+    margin: auto;
 }
 
 div {
@@ -24,4 +25,5 @@ div {
     text-transform: uppercase;
     margin: auto;
     line-height: 200px;
+    text-align: center;
 }
