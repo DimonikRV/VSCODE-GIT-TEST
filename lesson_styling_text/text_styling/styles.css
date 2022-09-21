@@ -7,7 +7,7 @@ body {
     margin: 32px;
 }
 
-.title {
+h1 {
     word-spacing: 20px;
     text-align: center;
     text-transform: uppercase;
@@ -31,4 +31,5 @@ a {
 
 em {
     font-style: italic;
+    color: grey;
 }
