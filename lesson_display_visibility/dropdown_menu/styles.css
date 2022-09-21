@@ -10,11 +10,11 @@
     color: white;
     position: relative;
     cursor: pointer;
-    padding: 16px;
 }
 
 .menu_button {
     display: inline-block;
+    padding: 16px;
     opacity: 0.8;
 }
 
