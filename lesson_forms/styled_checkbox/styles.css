@@ -4,9 +4,11 @@
     padding: 0; */
 }
 
-.checkbox {
+.checkbox-lable {
     display: inline-block;
     padding: 35px;
     margin: 16px;
     font-size: 24px;
 }
+
+.checkbox :checked {}
