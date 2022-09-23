@@ -3,13 +3,14 @@
 }
 
 table {
-    width: 500px;
     margin: 16px;
+    width: 500px;
 }
 
 td,
 th {
     padding: 4px;
+    text-align: right;
 }
 
 table,
