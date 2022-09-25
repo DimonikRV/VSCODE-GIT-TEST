@@ -6,7 +6,7 @@
     margin: 32px;
 }
 
-._rect {
+.rect {
     background-color: coral;
     margin-top: 16px;
     opacity: 0.5;
@@ -18,27 +18,27 @@
     transition: width 2s, opacity 0.5s;
 }
 
-._rect:hover {
+.rect:hover {
     width: 100%;
     opacity: 1;
 }
 
-.rect-linear {
+.linear {
     transition-timing-function: linear;
 }
 
-.rect-ease {
+.ease {
     transition-timing-function: ease;
 }
 
-.rect-ease-in {
+.ease-in {
     transition-timing-function: ease-in;
 }
 
-.rect-ease-out {
+.ease-out {
     transition-timing-function: ease-out;
 }
 
-.rect-ease-in-out:hover {
+.ease-in-out {
     transition-timing-function: ease-in-out;
 }
