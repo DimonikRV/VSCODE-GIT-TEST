@@ -39,6 +39,6 @@
     transition-timing-function: ease-out;
 }
 
-.rect-ease-in-:hover {
+.rect-ease-in-out:hover {
     transition-timing-function: ease-in-out;
 }
