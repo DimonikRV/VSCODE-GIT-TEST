@@ -15,6 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: width 2s, opacity 0.5;
 }
 
 ._rect:hover {
@@ -23,21 +24,21 @@
 }
 
 .rect-linear:hover {
-    transition: width 2s linear, opacity 0.5 linear;
+    transition-timing-function: linear;
 }
 
 .rect-ease:hover {
-    transition: width 2s ease, opacity 0.5 ease;
+    transition-timing-function: ease;
 }
 
 .rect-ease-in:hover {
-    transition: width 2s ease-in, opacity 0.5 ease-in;
+    transition-timing-function: ease-in;
 }
 
 .rect-ease-out:hover {
-    transition: width 2s ease-out, opacity 0.5 ease-out;
+    transition-timing-function: ease-out;
 }
 
 .rect-ease-in-:hover {
-    transition: width 2s ease-in-out, opacity 0.5 ease-in-out;
+    transition-timing-function: ease-in-out;
 }
