@@ -22,22 +22,22 @@
     opacity: 1;
 }
 
-.rect-linear {
+.rect-linear:hover {
     transition: width 2s linear, opacity 0.5 linear;
 }
 
-.rect-ease {
+.rect-ease:hover {
     transition: width 2s ease opacity 0.5 ease;
 }
 
-.rect-ease-in {
+.rect-ease-in:hover {
     transition: width 2s ease-in opacity 0.5 ease-in;
 }
 
-.rect-ease-out {
+.rect-ease-out:hover {
     transition: width 2s ease-out opacity 0.5 ease-out;
 }
 
-.rect-ease-in-out {
+.rect-ease-in-:hover {
     transition: width 2s ease-in-out opacity 0.5 ease-in-out;
 }
