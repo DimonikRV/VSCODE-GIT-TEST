@@ -27,17 +27,17 @@
 }
 
 .rect-ease:hover {
-    transition: width 2s ease opacity 0.5 ease;
+    transition: width 2s ease, opacity 0.5 ease;
 }
 
 .rect-ease-in:hover {
-    transition: width 2s ease-in opacity 0.5 ease-in;
+    transition: width 2s ease-in, opacity 0.5 ease-in;
 }
 
 .rect-ease-out:hover {
-    transition: width 2s ease-out opacity 0.5 ease-out;
+    transition: width 2s ease-out, opacity 0.5 ease-out;
 }
 
 .rect-ease-in-:hover {
-    transition: width 2s ease-in-out opacity 0.5 ease-in-out;
+    transition: width 2s ease-in-out, opacity 0.5 ease-in-out;
 }
