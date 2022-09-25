@@ -23,21 +23,21 @@
 }
 
 .rect-linear {
-    transition: width 2s linear;
+    transition: width 2s linear, opacity 0.5 linear;
 }
 
 .rect-ease {
-    transition: width 2s ease;
+    transition: width 2s ease opacity 0.5 ease;
 }
 
 .rect-ease-in {
-    transition: width 2s ease-in;
+    transition: width 2s ease-in opacity 0.5 ease-in;
 }
 
 .rect-ease-out {
-    transition: width 2s ease-out;
+    transition: width 2s ease-out opacity 0.5 ease-out;
 }
 
 .rect-ease-in-out {
-    transition: width 2s ease-in-out;
+    transition: width 2s ease-in-out opacity 0.5 ease-in-out;
 }
