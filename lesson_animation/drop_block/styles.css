@@ -27,6 +27,8 @@
         top: -100px;
     }
     to {
-        top: calc(50vh-50px)
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
     }
 }
