@@ -23,12 +23,11 @@ h1 {
 }
 
 .main {
-    flex: 1 1 100vh;
+    flex: 1 1 100%;
     display: flex;
 }
 
 .navigation {
-    padding: 0.5em;
     width: 20%;
 }
 
@@ -40,14 +39,14 @@ h1 {
 .nav-list-item {
     background-color: #808080;
     margin-bottom: 0.5em;
-    padding: 0.5em;
+    padding: 0 0.5em;
 }
 
 .nav-list-link {
     display: inline-block;
+    line-height: 2em;
     width: 100%;
     color: #fff;
-    line-height: 2em;
     text-decoration: none;
     overflow: hidden;
     white-space: nowrap;
