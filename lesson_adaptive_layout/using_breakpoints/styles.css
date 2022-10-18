@@ -9,17 +9,17 @@
 
 .nav {
     background-color: #ff7f50;
-    flex-grow: 1;
+    flex: 1 1 50%;
 }
 
 .product_list {
     background-color: #006400;
-    flex-grow: 1;
+    flex: 1 1 50%;
 }
 
 .news {
     background-color: #0ff;
-    flex-grow: 1;
+    flex: 1 1 33.333%;
 }
 
 span {
@@ -34,7 +34,7 @@ span {
 @media (min-width: 600px) {
     .nav_prod {
         display: flex;
-        flex-grow: 2;
+        flex: 1 1 66.666%;
     }
 }
 
