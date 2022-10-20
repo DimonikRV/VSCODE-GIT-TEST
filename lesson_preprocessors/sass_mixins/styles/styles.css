@@ -12,18 +12,18 @@
         .square {
             width: 100px;
             height: 100px;
-            margin-bottom: 16px;
+            margin: 16px;
             background-color: #ff7f50;
         }
         /*# sourceMappingURL=styles.css.map */
         
-        @media (min-width:600px)and(max-width:899px) {
+        @media (min-width:600px) and (max-width:899px) {
             .square {
                 background-color: #8a2be2;
             }
         }
         
-        @media (min-width: 900px)and(max-width:1199px) {
+        @media (min-width: 900px) and (max-width:1199px) {
             .square {
                 background-color: #a61;
             }
