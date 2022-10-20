@@ -1,0 +1,65 @@
+                        @import 'variables.scss';
+                        .header {
+                            font-family: $base_font_family;
+                            font-size: $base_font_size;
+                            background-color: $header_color;
+                        }
+                        
+                        .menu {
+                            display: flex;
+                            margin-left: $unit;
+                            margin-top: 0;
+                            margin-bottom: 0;
+                            list-style: none;
+                            display: flex;
+                            align-items: center;
+                            &__item {
+                                display: flex;
+                                color: $prime_list_color;
+                                padding: 0 8px;
+                                cursor: pointer;
+                                height: $unit;
+                                &-text {
+                                    text-transform: uppercase;
+                                    color: $prime_list_color;
+                                    margin: auto;
+                                }
+                                &_active {
+                                    color: $second_list_color;
+                                    position: relative;
+                                }
+                                &:hover {
+                                    background-color: $secondary_color;
+                                    &.submenu {
+                                        visibility: visible;
+                                    }
+                                }
+                            }
+                        }
+                        
+                        .menu__item_active .menu__item-text {
+                            color: $second_list_color;
+                        }
+                        
+                        .submenu {
+                            visibility: hidden;
+                            margin: 0;
+                            padding: 0;
+                            background-color: $primary_color;
+                            box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+                            color: $prime_list_color;
+                            min-width: 120px;
+                            display: flex;
+                            flex-direction: column;
+                            position: absolute;
+                            z-index: 1;
+                            top: $unit;
+                            list-style: none;
+                            &__item {
+                                padding: 0 8px;
+                                color: $prime_list_color;
+                                &:hover {
+                                    color: $hover_list_color;
+                                }
+                            }
+                        }
