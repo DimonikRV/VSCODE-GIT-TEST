@@ -1,0 +1,18 @@
+$unit:4px;
+$base_font_family:Verdana;
+$text_background:#faebd7;
+$background_nav:#ff7f50;
+$background_prod:#006400;
+$background_news:#0ff;
+@mixin for-medium-screen {
+    @media(min-width: 600px) {
+        @content
+    }
+}
+
+;
+@mixin for-large-screen {
+    @media (min-width: 900px) {
+        @content
+    }
+}

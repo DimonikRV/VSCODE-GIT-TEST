@@ -1,0 +1,46 @@
+@import 'variables.scss';
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $base_font_family;
+}
+
+span {
+    padding: $unit*2;
+    background-color: $text_background;
+    border-radius: $unit;
+    margin: auto;
+}
+
+.page {
+    @include for-large-screen {
+        display: flex;
+    }
+}
+
+.nav_product {
+    flex: 2;
+    &__nav {
+        background-color: $background_nav;
+        flex: 1;
+    }
+    &__product_list {
+        background-color: $background_prod;
+        flex: 1;
+    }
+    @include for-medium-screen {
+        display: flex;
+    }
+}
+
+._block {
+    height: $unit*50;
+    display: flex;
+}
+
+.news {
+    flex: 1;
+    background-color: $background_news;
+}
