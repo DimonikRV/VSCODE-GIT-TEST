@@ -13,7 +13,7 @@ body {
 .square {
     width: 100px;
     height: 100px;
-    margin: 8px;
+    margin-bottom: 16px;
     background-color: #ff7f50;
     @include for-medium-size {
         background-color: #8a2be2;
@@ -23,6 +23,9 @@ body {
     }
     @include for-extra-size {
         background-color: #c47;
+    }
+    @include for-orientation {
+        margin: 8px;
     }
 }
 
