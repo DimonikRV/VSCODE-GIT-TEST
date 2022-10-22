@@ -1,0 +1,27 @@
+$main-font-family: 'Work Sans',
+sans-serif;
+$font-weight-header: 700;
+$font-weight-regular: 400;
+$font-size-head:40px;
+$font-size-mid:24px;
+$font-size-small:22px;
+$color-text-first: #2B292D;
+$color-text-second:#fff;
+$unit: 1px;
+$background-color-main:#eff9fb;
+$background-color-first:linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%),
+#fff;
+$background-color-second:linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%),
+#3040C4;
+$background-colo-item_mod:#3141C5;
+$line-height-small:13px;
+$line-height-reg:28px;
+$line-height-mid:34px;
+$line-height-big:40px;
+$min-width:320px;
+$max-width:1400px;
+@mixin for-large-screen {
+    @media (min-width: $max-width) {
+        @content
+    }
+}

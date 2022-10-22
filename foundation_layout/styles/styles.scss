@@ -1,0 +1,178 @@
+@import 'variables.scss';
+@import 'header.scss';
+@import 'audience.scss';
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $main-font-family;
+}
+
+.page {
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.audience {
+    margin: 0 auto;
+    width: $unit*320;
+    background-color: $background-color-main;
+    padding: $unit*50 $unit*15;
+    height: $unit*1808;
+    @include for-large-screen {
+        width: $max-width;
+        height: $unit*983;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    &-content {
+        width: $unit*290;
+        height: $unit*388;
+        @include for-large-screen {
+            height: $unit*765;
+            width: $unit*1139;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 -11px;
+        }
+    }
+    ;
+    &-intro {
+        margin-bottom: -5px;
+        max-width: $unit*555;
+        @include for-large-screen {
+            width: $unit*555;
+            height: $unit*354;
+            margin-bottom: $unit*111;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__preview {
+            height: $unit*34;
+            font-weight: $font-weight-header;
+            font-size: $font-size-small;
+            line-height: $line-height-small;
+            color: $color-text-first;
+            text-align: center;
+            margin-bottom: $unit*17;
+            @include for-large-screen {
+                margin-bottom: $unit*24
+            }
+        }
+        ;
+        &__prev-headline {
+            height: $unit*80;
+            font-weight: $font-weight-header;
+            font-size: $font-size-head;
+            line-height: $line-height-big;
+            letter-spacing: -0.357143px;
+            color: $color-text-first;
+            text-align: center;
+            margin-bottom: $unit*18;
+            @include for-large-screen {
+                font-size: $unit*56;
+                line-height: $unit*56;
+                margin-bottom: $unit*30;
+                height: $unit*112;
+            }
+        }
+        ;
+        &__benefits {
+            height: $unit*136;
+            font-weight: $font-weight-regular;
+            font-size: $font-size-mid;
+            line-height: $line-height-mid;
+            color: $color-text-first;
+            text-align: center;
+            margin-bottom: $unit*25;
+            @include for-large-screen {
+                margin-bottom: $unit*29
+            }
+        }
+        ;
+    }
+    &-buttons {
+        height: $unit*118;
+        padding: $unit*5 0;
+        width: $unit*290;
+        margin-bottom: $unit*35;
+        flex: 1;
+        justify-content: space-between;
+        @include for-large-screen {
+            display: flex;
+            width: $unit*328;
+        }
+        &__get-started {
+            display: block;
+            height: $unit*48;
+            width: 100%;
+            font-weight: $font-weight-header;
+            font-size: $unit*18;
+            line-height: $line-height-small;
+            color: $color-text-second;
+            background: $background-color-second;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
+            border-radius: $unit*2;
+            outline: none;
+            border: 0;
+            &:not(:last-child) {
+                margin-bottom: $unit*12;
+            }
+            &_learn-more {
+                color: $color-text-first;
+                background: $background-color-first;
+            }
+            @include for-large-screen {
+                max-width: $unit*158;
+            }
+        }
+    }
+    &-categories {
+        width: $unit*290;
+        height: $unit*300;
+        @include for-large-screen {
+            height: $unit*300;
+            width: 100%;
+            align-self: flex-start;
+            display: flex;
+            margin: 0 -11px;
+        }
+        &-posters {
+            background: $background-color-first;
+            padding: $unit*22 0 $unit*33 0;
+            margin: $unit*15 0;
+            border-radius: $unit*8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            @include for-large-screen {
+                margin: 0 $unit*11;
+            }
+            &_focus {
+                background: $background-colo-item_mod;
+            }
+            // position: relative;
+            & img {
+                max-width: 100%;
+                margin-bottom: $unit*22;
+            }
+            &__name {
+                width: $unit*250;
+                height: $unit*28;
+                font-weight: $font-weight-header;
+                font-size: $unit*22;
+                line-height: $line-height-reg;
+                text-align: center;
+                color: $color-text-first;
+            }
+        }
+    }
+}
