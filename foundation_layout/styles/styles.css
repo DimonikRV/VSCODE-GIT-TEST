@@ -108,7 +108,7 @@ body {
     line-height: 34px;
     color: #2b292d;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 @media (min-width: 1400px) {
@@ -119,7 +119,6 @@ body {
 
 .audience-buttons {
     height: 118px;
-    padding: 5px 0;
     width: 290px;
     margin-bottom: 40px;
     flex: 1;

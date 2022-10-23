@@ -88,7 +88,7 @@ body {
             line-height: $line-height-mid;
             color: $color-text-first;
             text-align: center;
-            margin-bottom: $unit * 25;
+            margin-bottom: $unit * 30;
             @include for-large-screen {
                 margin-bottom: $unit * 29;
             }
@@ -96,7 +96,6 @@ body {
     }
     &-buttons {
         height: $unit * 118;
-        padding: $unit * 5 0;
         width: $unit * 290;
         margin-bottom: $unit * 40;
         flex: 1;
