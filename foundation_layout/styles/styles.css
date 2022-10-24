@@ -119,9 +119,7 @@ body {
 
 .audience-buttons {
     height: 118px;
-    width: 290px;
     margin-bottom: 40px;
-    flex: 1;
     justify-content: space-between;
 }
 
@@ -135,11 +133,12 @@ body {
 .audience-buttons__get-started {
     display: block;
     height: 48px;
-    width: 100%;
+    width: 290px;
     font-weight: 700;
     font-size: 18px;
     line-height: 13px;
     color: #fff;
+    padding: 17px 93px 18px 93px;
     background: linear-gradient( 180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #3040c4;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
     border-radius: 2px;
@@ -179,13 +178,13 @@ body {
 
 .audience-categories-posters {
     background: linear-gradient( 180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #fff;
-    padding: 22px 0 33px 0;
     margin: 15px 0;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: 1;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 
 @media (min-width: 1400px) {
@@ -200,7 +199,7 @@ body {
 
 .audience-categories-posters img {
     max-width: 100%;
-    margin-bottom: 22px;
+    margin: 22px auto;
 }
 
 .audience-categories-posters__name {
@@ -211,6 +210,7 @@ body {
     line-height: 28px;
     text-align: center;
     color: #2b292d;
+    margin-bottom: 33px;
 }
 
 
